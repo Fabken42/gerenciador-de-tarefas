@@ -1,0 +1,112 @@
+.tasks-page-container {
+    /* Estilos para o container principal */
+    font-family: Arial, sans-serif;
+}
+
+.header-container {
+    /* Estilos para o container do cabeçalho */
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+}
+
+.header-container__titulo {
+    font-size: 2.5em;
+}
+
+.excluir-tudo-btn {
+    /* Estilos para o botão "Excluir Tudo" */
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container {
+    /* Estilos para o container do formulário */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    gap: 1em;
+}
+
+.input-tarefa {
+    /* Estilos para o campo de entrada de texto */
+    flex: .5;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+.enviar-btn {
+    /* Estilos para o botão "Enviar" */
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tarefas-container {
+    /* Estilos para o container das tarefas */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Estilos para o container da tarefa */
+.tarefa {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin: 8px 0;
+}
+
+/* Estilos para a tarefa completa */
+.tarefa-completa {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+/* Estilos para o texto da tarefa */
+.tarefa-texto {
+    flex: 1;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+/* Estilos para os botões */
+.botao {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.btn-trash {
+    color: #f44336;
+}
+
+.btn-edit {
+    color: #4caf50;
+}
+
+.btn-complete {
+    color: #2196f3;
+}
+
+.btn-move {
+    color: #ffc107;
+}
