@@ -79,7 +79,7 @@ export default function TasksPage() {
   return (
     <div className="tasks-page-container">
       <div className="header-container">
-        <h2 className="header-container__titulo">Lista de Tarefas</h2>
+        <h2 className="header-container__titulo">Lista de Tarefas - Fabrício K.</h2>
         <button onClick={() => excluirTarefas()} className="btn excluir-tudo-btn">
           Excluir Tudo
         </button>
